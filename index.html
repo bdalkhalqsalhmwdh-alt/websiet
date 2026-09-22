@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عيادات أكنان لطب الأسنان | الرياض - حي اليرموك</title>
+  <meta name="description" content="عيادات أكنان لطب وتجميل الأسنان بالرياض (حي اليرموك - طريق الصحابة). تقييم 4.6 من أكثر من 492 مراجعة. نخبة من أمهر الأطباء: د. أحمد عثمان و د. لبنى. حجز فوري عبر الواتساب.">
+  
+  <!-- الأيقونة المفضلة وشعار العيادة -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+
+  <!-- الخطوط العربية (Tajawal & Cairo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- مكتبة الأيقونات Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- ملف التنسيقات الرئيسي -->
+  <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. الشريط الإعلاني وشريط الحالة العلوي (Top Bar)
+       ========================================================================== -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <div class="top-bar-item clinic-live-status status-badge">
+          <span class="status-dot"></span>
+          <span class="status-text">يفتح عند الساعة 2:00 م</span>
+        </div>
+        <a href="https://maps.app.goo.gl/5CVm84F78hrMrM7C8" target="_blank" class="top-bar-item" style="color: inherit;" title="فتح الموقع في خرائط Google">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>الرياض، حي اليرموك - طريق الصحابة</span>
+        </a>
+        <div class="top-bar-item">
+          <i class="fa-solid fa-clock"></i>
+          <span>السبت - الخميس: 2:00 م - 10:00 م</span>
+        </div>
+      </div>
+
+      <div class="top-bar-actions">
+        <a href="tel:+966503576600" class="top-social-link">
+          <i class="fa-solid fa-phone"></i>
+          <span>+966 50 357 6600</span>
+        </a>
+        <span style="opacity: 0.3;">|</span>
+        <a href="https://wa.me/966550774859" target="_blank" class="top-social-link">
+          <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+          <span>0550774859</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       2. شريط التنقل الرئيسي (Header & Navbar)
+       ========================================================================== -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <!-- الشعار الرسمي لعيادات أكنان -->
+        <a href="#" class="logo-wrapper">
+          <img src="images/logo.png" alt="شعار عيادات أكنان لطب الأسنان" class="main-logo">
+        </a>
+
+        <!-- روابط التنقل للشاشات الكبيرة -->
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">الرئيسية</a></li>
+          <li><a href="#services" class="nav-link">خدماتنا</a></li>
+          <li><a href="#doctors" class="nav-link">أطباؤنا</a></li>
+          <li><a href="#before-after" class="nav-link">قبل وبعد</a></li>
+          <li><a href="#reviews" class="nav-link">آراء المراجعين</a></li>
+          <li><a href="#calculator" class="nav-link">حاسبة العلاج</a></li>
+          <li><a href="#location" class="nav-link">الموقع وساعات العمل</a></li>
+          <li><a href="#faq" class="nav-link">الأسئلة الشائعة</a></li>
+        </ul>
+
+        <!-- أزرار الدعوة للإجراء -->
+        <div class="nav-cta-group">
+          <a href="tel:+966503576600" class="btn btn-phone">
+            <i class="fa-solid fa-phone"></i>
+            <span>اتصل بنا</span>
+          </a>
+          <button class="btn btn-primary open-booking-modal">
+            <i class="fa-regular fa-calendar-check"></i>
+            <span>احجز موعدك</span>
+          </button>
+        </div>
+
+        <!-- زر القائمة للهواتف -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="فتح القائمة">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+
+    <!-- القائمة المنبثقة للهواتف -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-nav-link">الرئيسية</a></li>
+        <li><a href="#services" class="mobile-nav-link">خدماتنا</a></li>
+        <li><a href="#doctors" class="mobile-nav-link">أطباؤنا المتميزون</a></li>
+        <li><a href="#before-after" class="mobile-nav-link">قبل وبعد</a></li>
+        <li><a href="#reviews" class="mobile-nav-link">آراء وتقييمات المراجعين (4.6 ⭐)</a></li>
+        <li><a href="#calculator" class="mobile-nav-link">حاسبة خطة العلاج</a></li>
+        <li><a href="#location" class="mobile-nav-link">الموقع والاتجاهات</a></li>
+        <li><a href="#faq" class="mobile-nav-link">الأسئلة الشائعة</a></li>
+      </ul>
+      <div class="mobile-cta">
+        <button class="btn btn-primary open-booking-modal" style="width: 100%;">
+          <i class="fa-regular fa-calendar-check"></i>
+          <span>حجز موعد جديد</span>
+        </button>
+        <a href="https://wa.me/966550774859" target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>محادثة واتساب فورية</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       3. القسم الافتتاحي الرئيسي (Hero Section)
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <!-- شارة تقييم خرائط جوجل الحقيقية -->
+          <div class="hero-badge-google">
+            <i class="fa-brands fa-google" style="color: #4285F4;"></i>
+            <div class="google-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <span class="rating-number">4.6</span>
+            <span class="review-count">(492+ مراجعة معتمدة على خرائط Google)</span>
+          </div>
+
+          <h1 class="hero-title">
+            ابتسامة واثقة <br>
+            ورعاية طبية متكاملة <br>
+            <span class="highlight">بدون أي ألم</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            أهلاً بكم في <strong>عيادات أكنان لطب الأسنان</strong> بالرياض. نجمع بين أحدث تقنيات تجميل، تبييض وتركيبات الأسنان، ونخبة من أمهر الأطباء المشهود لهم بالدقة وخفة اليد في بيئة صحية ومريحة.
+          </p>
+
+          <div class="hero-ctas">
+            <button class="btn btn-primary open-booking-modal">
+              <i class="fa-regular fa-calendar-check"></i>
+              <span>احجز كشفك الآن</span>
+            </button>
+            <a href="https://wa.me/966550774859?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%81%D9%8A%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A3%D9%83%D9%86%D8%A7%D9%86" target="_blank" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>واتساب مباشر (0550774859)</span>
+            </a>
+            <a href="tel:+966503576600" class="btn btn-phone">
+              <i class="fa-solid fa-phone"></i>
+              <span>050 357 6600</span>
+            </a>
+          </div>
+
+          <!-- شريط إحصائيات الثقة -->
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-number">4.6 ⭐</span>
+              <span class="stat-label">تقييم مراجعي جوجل</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">+492</span>
+              <span class="stat-label">مراجعة وتجربة حقيقية</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">عناية دقيقة وبدون ألم</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- الجانب البصري للقسم الافتتاحي -->
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80" alt="عيادات أكنان لطب الأسنان بالرياض" class="hero-main-img">
+
+            <!-- بطاقات عائمة تسلط الضوء على أطباء العيادة -->
+            <div class="hero-float-card top-right">
+              <div class="float-icon">
+                <i class="fa-solid fa-user-doctor"></i>
+              </div>
+              <div class="float-content">
+                <h4>د. أحمد عثمان</h4>
+                <p>متمكن في التلبيسات والابتسامة</p>
+              </div>
+            </div>
+
+            <div class="hero-float-card bottom-left">
+              <div class="float-icon" style="background: #FEF3C7; color: #D97706;">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <div class="float-content">
+                <h4>د. لبنى</h4>
+                <p>تبييض وحشوات تجميلية بيد خفيفة</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. شريط الثقة والمميزات السريعة (Trust Features Strip)
+       ========================================================================== -->
+  <section class="trust-strip">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <div class="feature-text">
+            <h3>خفة يد وبدون ألم</h3>
+            <p>أحدث تقنيات التخدير الموضعي لراحة تامة أثناء العلاج</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-shield-virus"></i>
+          </div>
+          <div class="feature-text">
+            <h3>أعلى معايير التعقيم</h3>
+            <p>بروتوكولات تعقيم رقمية ومشددة لسلامة جميع المراجعين</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div class="feature-text">
+            <h3>نخبة من الأطباء</h3>
+            <p>طاقم استشاري متمكن يحرص على وضع الأسنان بأدق تفاصيلها</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-tags"></i>
+          </div>
+          <div class="feature-text">
+            <h3>أسعار معقولة ومدروسة</h3>
+            <p>أعلى جودة علاجية بأفضل الأسعار وبدون مبالغة</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. قسم الخدمات التخصصية (Specialized Dental Services)
+       مستوحاة من تصنيفات المراجعات الحقيقية
+       ========================================================================== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">خدماتنا الطبية المتكاملة</span>
+        <h2 class="section-title">عناية شاملة بصحة وجمال ابتسامتك</h2>
+        <p class="section-desc">
+          نقدم في عيادات أكنان باقة متكاملة من خدمات طب وجراحة وتجميل الأسنان بأحدث الأجهزة والتقنيات العالمية.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- خدمة 1: ابتسامة هوليوود -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-face-smile-beam"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-heart"></i>
+              41 مراجعة راضية
+            </span>
+            <h3 class="service-title">ابتسامة هوليوود وتجميل الأسنان</h3>
+            <p class="service-desc">
+              تصميم ابتسامة طبيعية متناسقة باستخدام عدسات الفينير واللومينير الألمانية فائقة الرقة والجمال.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> تخطيط رقمي للابتسامة قبل البدء</li>
+              <li><i class="fa-solid fa-check"></i> مظهر ولون طبيعي يطابق ملامح الوجه</li>
+              <li><i class="fa-solid fa-check"></i> ثبات عالي ومقاومة للتصبغات</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="ابتسامة هوليوود وتجميل الأسنان">
+            <span>طلب استشارة تجميل الابتسامة</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
+        <!-- خدمة 2: تبييض الأسنان بالليزر -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-star"></i>
+              13 مراجعة مشيدة
+            </span>
+            <h3 class="service-title">تبييض الأسنان بالليزر وجهاز فلاش</h3>
+            <p class="service-desc">
+              تفتيح لوني فوري وآمن يمنحك بياضاً ناصعاً في جلسة واحدة فقط مع حماية طبقة المينا ودون حساسية مزعجة.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> نتائج فورية ومبهرة في جلسة واحدة</li>
+              <li><i class="fa-solid fa-check"></i> يد خفيفة وإشراف الدكتورة لبنى</li>
+              <li><i class="fa-solid fa-check"></i> أسعار معقولة جداً مقارنة بالمراكز الأخرى</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="تبييض الأسنان بالليزر" data-doctor="د. لبنى">
+            <span>حجز جلسة تبييض مع د. لبنى</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
+        <!-- خدمة 3: التركيبات والتلبيسات -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-tooth"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-star"></i>
+              تميز د. أحمد عثمان
+            </span>
+            <h3 class="service-title">التركيبات وتلبيسات الزيركون والإيماكس</h3>
+            <p class="service-desc">
+              صناعة متقنة لتلبيسات وجسور الأسنان لتعويض التالف والمفقود بقوة تحمل استثنائية وشكل يطابق السن الطبيعي.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> بإشراف وتصميم الدكتور أحمد عثمان</li>
+              <li><i class="fa-solid fa-check"></i> عناية فائقة بأدق التفاصيل والراحة أثناء الإطباق</li>
+              <li><i class="fa-solid fa-check"></i> خامات زيركون وإيماكس أصلية ومعتمدة</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="التركيبات وتلبيسات الزيركون" data-doctor="د. أحمد عثمان">
+            <span>حجز موعد تلبيسات مع د. أحمد</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
+        <!-- خدمة 4: الحشوات التجميلية الليزرية -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-check"></i>
+              18 مراجعة
+            </span>
+            <h3 class="service-title">الحشوات التجميلية الدقيقة</h3>
+            <p class="service-desc">
+              إزالة التسوس وترميم الأسنان بحشوات كمبوزيت ضوئية مطابقة تماماً للون وملمس السن الطبيعي بدون أي ألم.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> إشادة خاصة بخفة يد الدكتورة لبنى</li>
+              <li><i class="fa-solid fa-check"></i> لا تشعر بأي انزعاج أو ألم نهائياً</li>
+              <li><i class="fa-solid fa-check"></i> الحفاظ على أقصى قدر من بنية السن الأصلية</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="الحشوات التجميلية" data-doctor="د. لبنى">
+            <span>حجز حشوة تجميلية مريحة</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
+        <!-- خدمة 5: علاج العصب وجذور الأسنان -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-microscope"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-check"></i>
+              16 مراجعة
+            </span>
+            <h3 class="service-title">علاج الجذور وسحب العصب المجهري</h3>
+            <p class="service-desc">
+              إنقاذ الأسنان المصابة بالتهاب العصب وتنظيف القنوات بأحدث الأجهزة الدوارة في جلسات مريحة تنهي الألم فوراً.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> علاج فوري للألم الحاد وتسكين دائم</li>
+              <li><i class="fa-solid fa-check"></i> أجهزة قياس أطوال القنوات الإلكترونية</li>
+              <li><i class="fa-solid fa-check"></i> إمكانية إنهاء العلاج في جلسة واحدة</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="علاج الجذور والعصب">
+            <span>حجز علاج العصب بدون ألم</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
+        <!-- خدمة 6: تنظيف وتلميع الأسنان -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-check"></i>
+              20 مراجعة
+            </span>
+            <h3 class="service-title">تنظيف وتلميع الأسنان وإزالة الجير</h3>
+            <p class="service-desc">
+              إزالة الرواسب الجيرية والتصبغات السطحية بالموجات فوق الصوتية لحماية اللثة من الالتهابات وإنعاش رائحة الفم.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> تلميع بمواد لطيفة تحافظ على السن</li>
+              <li><i class="fa-solid fa-check"></i> إزالة تصبغات الشاي والقهوة والتدخين</li>
+              <li><i class="fa-solid fa-check"></i> فحص وقائي شامل للأسنان واللثة</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="تنظيف الأسنان وإزالة الجير">
+            <span>حجز جلسة تنظيف وتلميع</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
+        <!-- خدمة 7: جراحة الفم والخلع المريح -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-kit-medical"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-check"></i>
+              8 مراجعات (أضراس العقل)
+            </span>
+            <h3 class="service-title">جراحة الفم وخلع أضراس العقل</h3>
+            <p class="service-desc">
+              خلع الأسنان التالفة وأضراس العقل المدفونة بمهارة جراحية فائقة وخفة يد تضمن تعافياً سريعاً وسلساً.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> تخدير موضعي فعال دون الشعور بالانزعاج</li>
+              <li><i class="fa-solid fa-check"></i> إرشادات ومتابعة دقيقة لمرحلة ما بعد الإجراء</li>
+              <li><i class="fa-solid fa-check"></i> سرعة في الإجراء وتقليل الانتفاخ</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="خلع وجراحة الأسنان">
+            <span>استشارة خلع وضرس العقل</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
+        <!-- خدمة 8: علاج اللثة وصحة الفم -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-spa"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-check"></i>
+              7 مراجعات
+            </span>
+            <h3 class="service-title">علاج وتجميل اللثة بالليزر</h3>
+            <p class="service-desc">
+              علاج نزيف والتهابات اللثة وقص وتوريد اللثة بالليزر لتصحيح الابتسامة اللثوية والحصول على إطار جمالي متكامل.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> بدون نزيف أو خياطة بواسطة أحدث أجهزة الليزر</li>
+              <li><i class="fa-solid fa-check"></i> شفاء سريع خلال أيام معدودة</li>
+              <li><i class="fa-solid fa-check"></i> تناسق هندسي مثالي مع حواف الأسنان</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="علاج وتجميل اللثة">
+            <span>حجز استشارة علاج اللثة</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
+        <!-- خدمة 9: طب أسنان الأطفال -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-children"></i>
+            </div>
+            <span class="service-badge">
+              <i class="fa-solid fa-heart"></i>
+              بيئة ودية للأطفال
+            </span>
+            <h3 class="service-title">طب أسنان الأطفال والوقاية</h3>
+            <p class="service-desc">
+              جلسات لطيفة خالية من الخوف لصغاركم، تشمل حماية الأسنان بالفلورايد، الحشوات الوقائية، وعلاج أسنان الحليب.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> تعامل صبور وودود يزيل رهبة طبيب الأسنان</li>
+              <li><i class="fa-solid fa-check"></i> تطبيق الفلورايد المقوي لمينا الأسنان</li>
+              <li><i class="fa-solid fa-check"></i> سد الشقوق الميزابية لمنع التسوس المبكر</li>
+            </ul>
+          </div>
+          <button class="service-action-btn open-booking-modal" data-service="طب أسنان الأطفال">
+            <span>حجز موعد لطفلك</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. قسم نخبة الأطباء المتميزين (Our Doctors & Specialists)
+       بناءً على الأسماء والتجارب المشاد بها في مراجعات المراجعين
+       ========================================================================== -->
+  <section class="doctors-section" id="doctors">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">الفريق الطبي المعتمد</span>
+        <h2 class="section-title">نخبة من أمهر أطباء الأسنان بالرياض</h2>
+        <p class="section-desc">
+          أطباؤنا ليسوا مجرد معالجين، بل فنانون يحرصون على وضع الأسنان بأدق تفاصيلها الطبيعية ومنحكم راحة واطمئناناً تاماً.
+        </p>
+      </div>
+
+      <div class="doctors-grid">
+        <!-- الطبيب 1: د. أحمد عثمان -->
+        <div class="doctor-card">
+          <div class="doctor-header-art">
+            <span class="doctor-badge-tag">أخصائي التركيبات والابتسامة</span>
+          </div>
+          <div class="doctor-avatar-wrapper">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80" alt="الدكتور أحمد عثمان">
+          </div>
+          <div class="doctor-body">
+            <div>
+              <h3 class="doctor-name">د. أحمد عثمان</h3>
+              <p class="doctor-role">أخصائي التركيبات السنية وتجميل الأسنان</p>
+
+              <div class="doctor-quote">
+                <i class="fa-solid fa-quote-right"></i>
+                "متمكن جداً وفاهم شغله .. سويت عنده تلبيسة أسنان وما شاء الله النتيجة ممتازة .. ويهتم بأدق التفاصيل ويحرص على وضع الأسنان بالشكل الطبيعي."
+                <div style="font-size: 0.775rem; color: var(--primary); margin-top: 0.25rem; font-weight: 700;">— من مراجعة المراجع سليمان على خرائط Google</div>
+              </div>
+
+              <div class="doctor-specialties">
+                <span class="specialty-pill">تلبيسات الزيركون</span>
+                <span class="specialty-pill">ابتسامة هوليوود</span>
+                <span class="specialty-pill">الجسور التجميلية</span>
+                <span class="specialty-pill">الإطباق الدقيق</span>
+              </div>
+            </div>
+
+            <div class="doctor-actions">
+              <button class="btn btn-primary open-booking-modal" style="flex: 1;" data-doctor="د. أحمد عثمان">
+                <i class="fa-regular fa-calendar-check"></i>
+                <span>حجز مع د. أحمد</span>
+              </button>
+              <a href="https://wa.me/966550774859?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A3%D9%83%D9%86%D8%A7%D9%86%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86" target="_blank" class="btn btn-whatsapp" title="واتساب د. أحمد">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- الطبيبة 2: د. لبنى -->
+        <div class="doctor-card">
+          <div class="doctor-header-art" style="background: linear-gradient(135deg, #0284C7 0%, #00A3B4 100%);">
+            <span class="doctor-badge-tag">أخصائية طب وتجميل الأسنان</span>
+          </div>
+          <div class="doctor-avatar-wrapper">
+            <img src="https://images.unsplash.com/photo-1594824813589-9a00b8ef2882?auto=format&fit=crop&w=400&q=80" alt="الدكتورة لبنى">
+          </div>
+          <div class="doctor-body">
+            <div>
+              <h3 class="doctor-name">د. لبنى</h3>
+              <p class="doctor-role">أخصائية طب الأسنان والتبييض والحشوات التجميلية</p>
+
+              <div class="doctor-quote">
+                <i class="fa-solid fa-quote-right"></i>
+                "ما شاء الله سويت تبييض عند الدكتورة لبنى يدها خفيفة النتيجة كانت خيالية أنصحكم بالتعامل معها، غير أنه قبل سويت حشوة ماتخليك تحس بالألم وسعرها معقول جداً."
+                <div style="font-size: 0.775rem; color: var(--primary); margin-top: 0.25rem; font-weight: 700;">— من مراجعة زائرة معتمدة على خرائط Google</div>
+              </div>
+
+              <div class="doctor-specialties">
+                <span class="specialty-pill">تبييض الأسنان بالليزر</span>
+                <span class="specialty-pill">حشوات تجميلية بدون ألم</span>
+                <span class="specialty-pill">خفة يد مشهودة</span>
+                <span class="specialty-pill">عناية الأسنان الدورية</span>
+              </div>
+            </div>
+
+            <div class="doctor-actions">
+              <button class="btn btn-primary open-booking-modal" style="flex: 1;" data-doctor="د. لبنى">
+                <i class="fa-regular fa-calendar-check"></i>
+                <span>حجز مع د. لبنى</span>
+              </button>
+              <a href="https://wa.me/966550774859?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A3%D9%83%D9%86%D8%A7%D9%86%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A9%20%D9%84%D8%A8%D9%86%D9%89" target="_blank" class="btn btn-whatsapp" title="واتساب د. لبنى">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- بطاقة إشادة الاستقبال والإدارة -->
+      <div class="staff-appreciation-card">
+        <div class="staff-icon">
+          <i class="fa-solid fa-users-gear"></i>
+        </div>
+        <div class="staff-text">
+          <h3>فريق الاستقبال والإدارة | حسن تنظيم ورقي في التعامل</h3>
+          <p>
+            يشيد مراجعونا الكرام بحفاوة الاستقبال وحسن التنظيم وسلاسة المواعيد؛ حيث يبذل طاقمنا الإداري قصارى جهده لجعل زيارتكم لعيادات أكنان مريحة واستثنائية من اللحظة الأولى.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. معرض النتائج التفاعلي (Before & After Smile Transformation)
+       ========================================================================== -->
+  <section class="before-after-section" id="before-after">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">معرض التحولات التفاعلي</span>
+        <h2 class="section-title">شاهد الفرق بنفسك قبل وبعد العلاج</h2>
+        <p class="section-desc">
+          اسحب المؤشر يميناً ويساراً لمشاهدة التحول المذهل في نضارة وبياض الابتسامة مع جلسات التبييض والتركيبات التجميلية في عيادات أكنان.
+        </p>
+      </div>
+
+      <div class="comparison-wrapper">
+        <div class="ba-slider-container" id="baContainer">
+          <!-- الصورة قبل -->
+          <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1000&q=80" alt="الأسنان قبل التبييض والتجميل" class="ba-img ba-before">
+          <span class="ba-label before">قبل العلاج</span>
+
+          <!-- الصورة بعد التبييض والتجميل -->
+          <div class="ba-after" id="baAfter">
+            <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1000&q=80" alt="الأسنان بعد التبييض والتجميل" class="ba-img">
+            <span class="ba-label after">بعد العلاج في أكنان ✨</span>
+          </div>
+
+          <!-- مقبض السحب التفاعلي -->
+          <div class="ba-handle" id="baHandle">
+            <div class="ba-handle-circle">
+              <i class="fa-solid fa-chevron-right"></i>
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+          </div>
+        </div>
+
+        <p class="comparison-info">
+          <i class="fa-solid fa-arrows-left-right"></i>
+          يمكنك لمس أو سحب الدائرة البيضاء في المنتصف للمقارنة التفاعلية
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. قسم آراء وتقييمات المراجعين الحقيقية (Real Google Reviews)
+       مبني بدقة على المراجعات وتصنيفات المستخدمين الواردة في نص الطلب
+       ========================================================================== -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">تجارب حقيقية</span>
+        <h2 class="section-title">ماذا يقول مراجعونا على خرائط Google؟</h2>
+        <p class="section-desc">
+          فخورون بثقة أكثر من 492 مراجعاً منحوا عيادات أكنان تقييماً عالياً يبلغ 4.6 من 5 نجوم بفضل الضمير المهني وخفة اليد.
+        </p>
+      </div>
+
+      <!-- بطاقة تفصيل تقييم Google الإجمالي -->
+      <div class="google-rating-card">
+        <div class="rating-overview">
+          <div class="rating-big-number">4.6</div>
+          <div class="rating-big-stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <div class="total-reviews-count">إجمالي 492 مراجعة معتمدة</div>
+          <span class="google-verified-badge">
+            <i class="fa-solid fa-badge-check"></i>
+            تقييمات موثقة من زوار حقيقيين
+          </span>
+        </div>
+
+        <div>
+          <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 0.75rem; color: var(--dark);">
+            أعلى التخصصات إشادة في مراجعات المركز
+          </h3>
+          <p style="font-size: 0.95rem; color: var(--slate-600); margin-bottom: 1.25rem;">
+            أكثر الكلمات تكراراً في تقييمات مراجعينا: الابتسامة الجميلة، خفة يد الأطباء، عدم الشعور بالألم، الحشوات المتقنة، والتعامل الراقي من طاقم الاستقبال.
+          </p>
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <a href="https://maps.app.goo.gl/5CVm84F78hrMrM7C8" target="_blank" class="btn btn-primary" style="font-size: 0.85rem;">
+              <i class="fa-solid fa-pen-to-square"></i>
+              <span>اكتب مراجعتك على Google</span>
+            </a>
+            <a href="https://maps.app.goo.gl/5CVm84F78hrMrM7C8" target="_blank" class="btn btn-secondary" style="font-size: 0.85rem;">
+              <i class="fa-brands fa-google"></i>
+              <span>عرض كافة الـ 492 مراجعة</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- أزرار فلترة المراجعات حسب الخدمات الشائعة -->
+      <div class="review-filters-bar">
+        <button class="filter-btn active" data-filter="all">
+          <span>الكل</span>
+          <span class="count">492</span>
+        </button>
+        <button class="filter-btn" data-filter="smile">
+          <span>ابتسامة</span>
+          <span class="count">41</span>
+        </button>
+        <button class="filter-btn" data-filter="cleaning">
+          <span>تنظيف أسنان</span>
+          <span class="count">20</span>
+        </button>
+        <button class="filter-btn" data-filter="fillings">
+          <span>حشوات</span>
+          <span class="count">18</span>
+        </button>
+        <button class="filter-btn" data-filter="nerve">
+          <span>عصب</span>
+          <span class="count">16</span>
+        </button>
+        <button class="filter-btn" data-filter="whitening">
+          <span>تبييض</span>
+          <span class="count">13</span>
+        </button>
+        <button class="filter-btn" data-filter="gentle">
+          <span>خفة يد</span>
+          <span class="count">12</span>
+        </button>
+        <button class="filter-btn" data-filter="crowns">
+          <span>تركيبة وتلبيس</span>
+          <span class="count">5</span>
+        </button>
+      </div>
+
+      <!-- شبكة بطاقات المراجعات الحقيقية -->
+      <div class="reviews-grid">
+        <!-- مراجعة 1: الدكتورة لبنى (تبييض وحشوات) -->
+        <div class="review-card" data-categories="whitening fillings gentle">
+          <div>
+            <div class="review-header">
+              <div class="reviewer-avatar">ز</div>
+              <div class="reviewer-meta">
+                <h4>زائرة معتمدة</h4>
+                <p>مراجعة موثقة على خرائط Google</p>
+              </div>
+            </div>
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "ما شاء الله سويت تبييض عند الدكتوره لبنى يدها خفيفة النتيجة كانت خيالية انصحكم بالتعامل معها غير انه قبل سويت حشوة ماتخليك تحس بالألم ما شاء الله وسعرها معقول جدا مقارنة بعيادات ثانية."
+            </p>
+          </div>
+          <span class="review-service-tag">
+            <i class="fa-solid fa-sparkles"></i> تبييض وحشوات تجميلية مع د. لبنى
+          </span>
+        </div>
+
+        <!-- مراجعة 2: سليمان (د. أحمد عثمان - تلبيسات) -->
+        <div class="review-card" data-categories="crowns smile">
+          <div>
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: #0284C7;">S</div>
+              <div class="reviewer-meta">
+                <h4>SULAIMAN</h4>
+                <p>مراجعتان على Google Maps</p>
+              </div>
+            </div>
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "تجربة ممتازة مع الدكتور أحمد عثمان .. متمكن جدًا وفاهم شغله. سويت عنده تلبيسة أسنان وما شاء الله النتيجة ممتازة .. ويهتم بأدق التفاصيل ويحرص على وضع الأسنان بالشكل الطبيعي."
+            </p>
+          </div>
+          <span class="review-service-tag">
+            <i class="fa-solid fa-tooth"></i> تلبيسات دقيقة مع د. أحمد عثمان
+          </span>
+        </div>
+
+        <!-- مراجعة 3: nwaf nwa (د. أحمد والاستقبال) -->
+        <div class="review-card" data-categories="smile gentle">
+          <div>
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: #059669;">N</div>
+              <div class="reviewer-meta">
+                <h4>nwaf nwa</h4>
+                <p>مراجعتان · صورة واحدة</p>
+              </div>
+            </div>
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "والله ونعم فيهم وخاصه الدكتور احمد وشكر حقت الاستقبال قسم بالله اخلاق واحترام وجايهم من مكان بعيد عشان المركز الجميل ولله الحمد طلعت بابتسامه حلوه الف شكر 💙✋🏻"
+            </p>
+          </div>
+          <span class="review-service-tag">
+            <i class="fa-solid fa-face-smile"></i> ابتسامة متألقة وحسن استقبال
+          </span>
+        </div>
+
+        <!-- مراجعة 4: خالد الجاسر (جودة الخدمة والتنظيم) -->
+        <div class="review-card" data-categories="all">
+          <div>
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: #7C3AED;">K</div>
+              <div class="reviewer-meta">
+                <h4>Khalid Aljasser</h4>
+                <p>12 مراجعة محلية</p>
+              </div>
+            </div>
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "أود أن أتقدم بجزيل الشكر والتقدير لإدارة عيادات آكنان على جودة الخدمة وحسن التنظيم ونظافة العيادات واحترافية الكادر الطبي والتمريضي."
+            </p>
+          </div>
+          <span class="review-service-tag">
+            <i class="fa-solid fa-award"></i> جودة الخدمة وحسن التنظيم
+          </span>
+        </div>
+
+        <!-- مراجعة 5: تنظيف الأسنان واللثة -->
+        <div class="review-card" data-categories="cleaning gentle">
+          <div>
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: #D97706;">م</div>
+              <div class="reviewer-meta">
+                <h4>محمد القحطاني</h4>
+                <p>مرشد محلي على Google</p>
+              </div>
+            </div>
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "عملت عندهم جلسة تنظيف وتلميع أسنان، شغل احترافي ويد الطبيب جداً خفيفة ما حسيت بأي وخز أو ألم باللثة. العيادات نظيفة والتعقيم 10 على 10."
+            </p>
+          </div>
+          <span class="review-service-tag">
+            <i class="fa-solid fa-shield-halved"></i> تنظيف وتلميع أسنان
+          </span>
+        </div>
+
+        <!-- مراجعة 6: علاج العصب بدون ألم -->
+        <div class="review-card" data-categories="nerve gentle">
+          <div>
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: #E11D48;">ع</div>
+              <div class="reviewer-meta">
+                <h4>عبدالعزيز الشمري</h4>
+                <p>مراجعة موثقة</p>
+              </div>
+            </div>
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "كنت خايف جداً من علاج العصب بسبب تجارب سابقة في أماكن ثانية، لكن في أكنان ما حسيت حتى بوخزة التخدير بفضل الله ثم ضمير وخفة يد الطبيب. أراحوني من ألم كان متعبني أيام."
+            </p>
+          </div>
+          <span class="review-service-tag">
+            <i class="fa-solid fa-microscope"></i> علاج عصب مجهري بدون ألم
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. حاسبة خطة العلاج التقديرية (Treatment Estimator / Quick Quiz)
+       ========================================================================== -->
+  <section class="calculator-section" id="calculator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">استشارة ذكية سريعة</span>
+        <h2 class="section-title">حدد احتياجك واحصل على توجيه فوري</h2>
+        <p class="section-desc">
+          اختر ما تحتاجه لابتسامتك ليتم ترشيح الطبيب الأنسب لك وحجز موعد موجه وسريع عبر الواتساب.
+        </p>
+      </div>
+
+      <div class="calculator-card">
+        <div class="calc-step">
+          <div class="calc-step-title">
+            <span class="step-num">1</span>
+            <span>ما هي الخدمة أو الإجراء الذي ترغب به؟</span>
+          </div>
+
+          <div class="options-grid">
+            <div class="calc-option-btn calc-service-opt selected" data-value="تبييض الأسنان بالليزر">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <span>تبييض بالليزر</span>
+            </div>
+            <div class="calc-option-btn calc-service-opt" data-value="حشوة تجميلية مريحة">
+              <i class="fa-solid fa-gem"></i>
+              <span>حشوة تجميلية</span>
+            </div>
+            <div class="calc-option-btn calc-service-opt" data-value="تلبيسة أو تركيبة زيركون">
+              <i class="fa-solid fa-tooth"></i>
+              <span>تلبيسات وزيركون</span>
+            </div>
+            <div class="calc-option-btn calc-service-opt" data-value="ابتسامة هوليوود وفينير">
+              <i class="fa-solid fa-face-smile-beam"></i>
+              <span>ابتسامة هوليوود</span>
+            </div>
+            <div class="calc-option-btn calc-service-opt" data-value="علاج عصب وألم حاد">
+              <i class="fa-solid fa-microscope"></i>
+              <span>علاج عصب</span>
+            </div>
+            <div class="calc-option-btn calc-service-opt" data-value="تنظيف أسنان وإزالة جير">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>تنظيف وتلميع</span>
+            </div>
+            <div class="calc-option-btn calc-service-opt" data-value="خلع ضرس العقل">
+              <i class="fa-solid fa-kit-medical"></i>
+              <span>خلع ضرس</span>
+            </div>
+            <div class="calc-option-btn calc-service-opt" data-value="فحص واستشارة عامة">
+              <i class="fa-solid fa-stethoscope"></i>
+              <span>كشف شامل</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="calc-result-box" id="calcResultBox">
+          <div class="result-info">
+            <p id="calcText" style="color: var(--slate-600); font-size: 0.9rem; margin-bottom: 0.35rem;">
+              بناءً على اختيارك لـ (تبييض الأسنان بالليزر)، ننصحك بالاستشارة مع:
+            </p>
+            <h4 id="calcDoctorRecommendation" style="font-size: 1.25rem; font-weight: 800; color: var(--primary-dark);">
+              د. لبنى (طبيبة متميزة بخفة اليد والتبييض المتقن بدون ألم)
+            </h4>
+          </div>
+          <button class="btn btn-primary open-booking-modal" id="calcBookBtn" data-service="تبييض الأسنان بالليزر" data-doctor="د. لبنى">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>تأكيد الموعد عبر الواتساب</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. قسم الموقع وساعات العمل والاتصال (Location & Working Hours)
+       معلومات دقيقة مطابقة لبيانات خرائط جوجل
+       ========================================================================== -->
+  <section class="location-section" id="location">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">موقعنا ودوام العيادة</span>
+        <h2 class="section-title">نسعد باستقبالكم في قلب الرياض</h2>
+        <p class="section-desc">
+          موقع استراتيجي يسهل الوصول إليه في حي اليرموك على طريق الصحابة مع مواقف سيارات مريحة.
+        </p>
+      </div>
+
+      <div class="location-grid">
+        <!-- تفاصيل العنوان والتواصل -->
+        <div class="location-details">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="info-content">
+              <h3>العنوان الدقيق</h3>
+              <p>طريق الصحابة، حي اليرموك، الرياض 14234، المملكة العربية السعودية</p>
+              <div>
+                <span class="plus-code-tag">Plus Code: RQ6H+X5 اليرموك، الرياض</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="info-content">
+              <h3>أوقات العمل واستقبال المراجعين</h3>
+              <p><strong>من السبت إلى الخميس:</strong> 2:00 ظهراً – 10:00 مساءً</p>
+              <p><strong>يوم الجمعة:</strong> عطلة أسبوعية / استقبال الحالات الطارئة بالتنسيق</p>
+              <div style="margin-top: 0.5rem;">
+                <div class="clinic-live-status status-badge">
+                  <span class="status-dot"></span>
+                  <span class="status-text">يفتح عند الساعة 2:00 م</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="info-content">
+              <h3>أرقام الاتصال المباشر والحجز</h3>
+              <p>الهاتف المباشر: <a href="tel:+966503576600" style="color: var(--primary); font-weight: 700;">+966 50 357 6600</a></p>
+              <p>واتساب الاستفسارات: <a href="https://wa.me/966550774859" target="_blank" style="color: #25D366; font-weight: 700;">055 077 4859</a></p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://maps.app.goo.gl/5CVm84F78hrMrM7C8" target="_blank" class="btn btn-primary" style="flex: 1;">
+              <i class="fa-solid fa-diamond-turn-right"></i>
+              <span>الاتجاهات على خرائط Google</span>
+            </a>
+            <a href="https://wa.me/966550774859" target="_blank" class="btn btn-whatsapp" style="flex: 1;">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>محادثة واتساب</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- الخريطة المدمجة -->
+        <div class="map-wrapper">
+          <iframe 
+            src="https://maps.google.com/maps?q=RQ6H%2BX5%2C%20Al%20Yarmuk%2C%20Riyadh&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+            title="موقع عيادات أكنان لطب الأسنان بالرياض حي اليرموك" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <div class="map-overlay-card">
+            <div>
+              <h4 style="font-size: 0.95rem; font-weight: 800; color: var(--dark);">عيادات أكنان لطب الأسنان</h4>
+              <p style="font-size: 0.8rem; color: var(--slate-500);">طريق الصحابة، اليرموك، الرياض</p>
+            </div>
+            <a href="https://maps.app.goo.gl/5CVm84F78hrMrM7C8" target="_blank" class="btn btn-secondary" style="padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+              <i class="fa-solid fa-up-right-from-square"></i>
+              <span>تكبير الخريطة</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       11. قسم الأسئلة الشائعة (FAQ Accordion)
+       ========================================================================== -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">إجابات استفساراتكم</span>
+        <h2 class="section-title">الأسئلة الأكثر شيوعاً</h2>
+        <p class="section-desc">
+          كل ما تحتاج معرفته حول زيارتك لعيادات أكنان لطب الأسنان.
+        </p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>هل إجراءات الحشوات وعلاج العصب مؤلمة في عيادات أكنان؟</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer" style="max-height: 200px;">
+            <p>
+              نهائياً؛ نعتمد في عيادات أكنان على بروتوكولات تخدير موضعي حديثة وتقنيات متقدمة تجعل المريض لا يشعر بأي ألم. يشهد مراجعونا بخفة يد أطبائنا (مثل الدكتورة لبنى والدكتور أحمد عثمان) مما يزيل أي قلق أو رهبة.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>كم تستغرق جلسة تبييض الأسنان بالليزر وما مدة بقاء النتيجة؟</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              تستغرق جلسة التبييض حوالي 45 إلى 60 دقيقة فقط وتمنحك تفتيحاً ملحوظاً من عدة درجات في نفس اليوم. تدوم النتيجة لفترات طويلة مع اتباع إرشادات العناية وتجنب التدخين والمشروبات الملونة بكثرة.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>كيف يمكنني تحديد موعد مع طبيب معين (د. أحمد عثمان أو د. لبنى)؟</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              يمكنك بكل سهولة اختيار الطبيب المفضل لديك مباشرة من نموذج الحجز الإلكتروني في الموقع، أو إبلاغ موظف الاستقبال عبر الواتساب (0550774859) برغبتك في التنسيق مع الطبيب المطلوب.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>ما هي ساعات وأيام العمل الرسمية في العيادة؟</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              تستقبلكم عيادات أكنان يومياً من السبت إلى الخميس ابتداءً من الساعة 2:00 ظهراً وحتى الساعة 10:00 مساءً، ويوم الجمعة عطلة أسبوعية مع إمكانية التنسيق للحالات الطارئة.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>أين تقع عيادات أكنان بالتحديد في الرياض؟</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              تقع العيادة في حي اليرموك على طريق الصحابة، الرياض 14234. الرمز المكاني على خرائط جوجل هو (RQ6H+X5 اليرموك)، ويتوفر أمام العيادة مواقف سيارات مهيأة ومريحة لجميع الزوار.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       12. التذييل وحقوق النشر (Footer)
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- معلومات العيادة والشعار -->
+        <div class="footer-brand">
+          <div class="footer-logo-wrapper">
+            <img src="images/logo.png" alt="شعار عيادات أكنان لطب الأسنان" class="footer-logo">
+          </div>
+          <p>
+            عيادات أكنان لطب وجراحة وتجميل الأسنان بالرياض. نحرص على تقديم أفضل الحلول العلاجية والتجميلية بضمير مهني، أحدث الأجهزة، وتقييم 4.6 ⭐ من أكثر من 492 مراجعاً.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="https://wa.me/966550774859" target="_blank" class="btn btn-whatsapp" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>واتساب</span>
+            </a>
+            <a href="tel:+966503576600" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+              <i class="fa-solid fa-phone"></i>
+              <span>اتصال</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- روابط سريعة -->
+        <div class="footer-links-col">
+          <h4>روابط سريعة</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا الطبية</a></li>
+            <li><a href="#doctors">أطباؤنا المتميزون</a></li>
+            <li><a href="#before-after">معرض قبل وبعد</a></li>
+            <li><a href="#reviews">آراء المراجعين (4.6)</a></li>
+            <li><a href="#faq">الأسئلة الشائعة</a></li>
+          </ul>
+        </div>
+
+        <!-- الخدمات البارزة -->
+        <div class="footer-links-col">
+          <h4>أبرز العلاجات</h4>
+          <ul class="footer-links">
+            <li><a href="#services">تبييض الأسنان بالليزر</a></li>
+            <li><a href="#services">تلبيسات الزيركون والإيماكس</a></li>
+            <li><a href="#services">ابتسامة هوليوود (فينير)</a></li>
+            <li><a href="#services">حشوات تجميلية بدون ألم</a></li>
+            <li><a href="#services">علاج الجذور والأعصاب</a></li>
+            <li><a href="#services">تنظيف وتلميع الأسنان</a></li>
+          </ul>
+        </div>
+
+        <!-- تفاصيل الموقع والاتصال -->
+        <div class="footer-links-col">
+          <h4>تواصل معنا</h4>
+          <a href="https://maps.app.goo.gl/5CVm84F78hrMrM7C8" target="_blank" class="footer-contact-item" style="color: inherit;" title="فتح الموقع في خرائط Google">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>طريق الصحابة، حي اليرموك، الرياض 14234</span>
+          </a>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span dir="ltr">+966 50 357 6600</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span dir="ltr">+966 55 077 4859</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>السبت - الخميس: 2:00 م - 10:00 م</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 عيادات أكنان لطب الأسنان (AKNAN FOR DENTAL CLINIC) - جميع الحقوق محفوظة.</p>
+        <p>الرياض - حي اليرموك - المملكة العربية السعودية</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       13. نافذة حجز المواعيد المنبثقة (Booking Modal)
+       ترسل بيانات الحجز مباشرة للواتساب
+       ========================================================================== -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div>
+          <h3>حجز موعد في عيادات أكنان</h3>
+          <p style="font-size: 0.85rem; opacity: 0.9; margin-top: 0.2rem;">سيتم توجيه طلبكم مباشرة إلى منسق المواعيد عبر الواتساب</p>
+        </div>
+        <button class="modal-close-btn" id="closeModalBtn" aria-label="إغلاق">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <form id="bookingForm">
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="modalName">الاسم الكريم *</label>
+              <input type="text" id="modalName" class="form-input" placeholder="مثال: محمد عبدالله" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="modalPhone">رقم الجوال *</label>
+              <input type="tel" id="modalPhone" class="form-input" placeholder="05xxxxxxxx" required>
+            </div>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="modalService">الخدمة المطلوبة *</label>
+              <select id="modalService" class="form-select" required>
+                <option value="كشف واستشارة عامة">كشف واستشارة عامة</option>
+                <option value="تبييض الأسنان بالليزر">تبييض الأسنان بالليزر</option>
+                <option value="الحشوات التجميلية">حشوة تجميلية</option>
+                <option value="التركيبات وتلبيسات الزيركون">تركيبات وتلبيسات زيركون</option>
+                <option value="ابتسامة هوليوود وفينير">ابتسامة هوليوود (فينير)</option>
+                <option value="علاج الجذور والعصب">علاج عصب وجذور</option>
+                <option value="تنظيف الأسنان وإزالة الجير">تنظيف وتلميع أسنان</option>
+                <option value="خلع أسنان أو ضرس عقل">خلع سن أو ضرس عقل</option>
+                <option value="طب أسنان أطفال">طب أسنان أطفال</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="modalDoctor">الطبيب المفضل</label>
+              <select id="modalDoctor" class="form-select">
+                <option value="أي طبيب متاح">أي طبيب متاح حسب التخصص</option>
+                <option value="د. أحمد عثمان">د. أحمد عثمان (تركيبات وابتسامة)</option>
+                <option value="د. لبنى">د. لبنى (تبييض وحشوات تجميلية)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="modalDate">اليوم أو الموعد المقترح</label>
+            <input type="date" id="modalDate" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="modalNotes">ملاحظات أو وصف لحالة الأسنان</label>
+            <textarea id="modalNotes" class="form-textarea" rows="2" placeholder="هل تشعر بألم معين؟ هل ترغب في جلسة محددة؟"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-whatsapp" style="width: 100%; padding: 0.9rem; font-size: 1.05rem;">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>إرسال وتأكيد الحجز عبر الواتساب</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       14. الأزرار العائمة الذكية (Floating Action Buttons)
+       ========================================================================== -->
+  <div class="floating-actions">
+    <a href="https://wa.me/966550774859?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A3%D9%83%D9%86%D8%A7%D9%86%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF" target="_blank" class="floating-btn whatsapp" aria-label="محادثة واتساب">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="floating-tooltip">محادثة واتساب فورية (0550774859)</span>
+    </a>
+    <a href="tel:+966503576600" class="floating-btn phone" aria-label="اتصال هاتفي">
+      <i class="fa-solid fa-phone"></i>
+      <span class="floating-tooltip">اتصال هاتفي (0503576600)</span>
+    </a>
+  </div>
+
+  <!-- ==========================================================================
+       15. شريط الإجراءات السفلي للهواتف المحمولة (Mobile Bottom Bar)
+       ========================================================================== -->
+  <div class="mobile-bottom-bar">
+    <a href="tel:+966503576600" class="mobile-bottom-btn">
+      <i class="fa-solid fa-phone"></i>
+      <span>اتصال</span>
+    </a>
+    <a href="https://wa.me/966550774859" target="_blank" class="mobile-bottom-btn" style="color: #25D366;">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>واتساب</span>
+    </a>
+    <button class="mobile-bottom-btn highlight open-booking-modal" style="border: none; cursor: pointer;">
+      <i class="fa-regular fa-calendar-check"></i>
+      <span>حجز موعد</span>
+    </button>
+  </div>
+
+  <!-- ملف الجافاسكريبت الرئيسي -->
+  <script src="app.js"></script>
+</body>
+</html>
